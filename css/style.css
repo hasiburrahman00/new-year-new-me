@@ -36,6 +36,7 @@
     margin-top: 24px;
     margin-bottom: 32px;
 }
+
 .banner-btn {
     font-weight: 600;
     font-size: 20px;
@@ -45,5 +46,201 @@
     padding: 20px 25px;
     border: 0;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ===== main section > my-failure-section css ==== */
+
+.my-failure-section {
+    padding: 130px 0;
+    max-width: 1072px;
+    margin: 0 auto;
+    display: flex;
+    gap: 82px;
+    align-items: center;
+}
+
+.my-failure-section .img-section {
+    width: 569px;
+    height: 723px;
+
+}
+
+.my-failure-section .title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+    margin-top: 100px;
+}
+
+.my-failure-section .description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.my-failure-section ul {
+    padding: 0;
+}
+
+.my-failure-section .content-section ul li {
+    list-style: none;
+    margin: 8px 0;
+    color: #444343;
+}
+
+.my-failure-section .content-section ul li i {
+    color: #56a391ff;
+    margin-right: 10px;
+}
+
+/* === my plan section css === */
+.my-plan-section {
+    padding: 50px 0;
+}
+
+.my-plan-title {
+    text-align: center;
+
+}
+
+.my-plan-title h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+.plan-all-item {
+    display: flex;
+    gap: 86px;
+    justify-content: center;
+}
+
+.plan-single-item .plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+    margin: 16px 0;
+}
+
+.plan-single-item .plan-content {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+
+/* ==== mindset section css ====== */
+.mindset {
+    max-width: 1140px;
+    margin: 100px auto;
+    background-image: url(../images/watch.png), url(../images/gradient1.png);
+    background-blend-mode: multiply;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.mindset-content {
+    padding: 65px 60px;
+}
+
+.mindset-content h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    width: 460px;
+    margin-bottom: 25px;
+}
+
+.call-now-btn {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    padding: 20px 35px;
+    color: #005FAC;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* === footer css =====  */
+.footer {
+    background-color: #151414;
+}
+
+.footer-content {
+    padding: 130px 230px;
+    display: flex;
+    gap: 330px;
+    color: #FFFFFF;
+}
+
+.footer-content .future-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+
+.footer-content .future-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin: 16px 16px 24px 0;
+}
+.footer-content .email, .phone {
+    margin-bottom: 16px;
+}
+.footer-content .social-media ul {
+    display: flex;
+    gap: 18px;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 24px;
+}
+.footer-content .social-media ul li {
+    list-style: none;
+
+}
+.subscription h3 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.subscription input[type="email"] { 
+    padding: 21px 158px 21px 21px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F3F3F3;
+    border: 1px solid #F3F3F3;
+    border-radius: 8px;
+    margin-top: 31px;
+    background-color: #151414;
+    outline: 0;
+
+}
+.subscribe-btn {
+    padding: 20px 36px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #005FAC;
+    border-radius: 8px;
+    margin-top: 10px;
     cursor: pointer;
 }
